@@ -24,5 +24,10 @@ namespace _11r
         {
             InitializeComponent();
         }
+
+        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            mi_open.Background = Brushes.LightCoral;
+        }
     }
 }

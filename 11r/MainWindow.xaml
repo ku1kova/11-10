@@ -7,6 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+
+        <Menu Background="White" BorderBrush="Navy" BorderThickness="1">
+            <MenuItem Header="_Файл">
+                <MenuItem Header="_Oткpыть" />
+                
+                <MenuItem Header="_Соxранить" />
+                <Separator />
+                <MenuItem Header="_Зaкpыть" />
+            </MenuItem>
+            <MenuItem Header="_О пpoгpaммe" />
+        </Menu>
+
+        <ToolBar Margin="655,0,0,364">
+            <Button>
+                <Image Source="C:\Users\student\Desktop\Решение КСЗ\11r\Image\1466617.png"></Image>
+            </Button>
+            <Separator/>
+            <Button>
+                <Image Source="C:\Users\student\Desktop\Решение КСЗ\11r\Image\9136168.png"></Image>
+            </Button>
+        </ToolBar>
+        <StatusBar DockPanel.Dock="Bottom" Margin="0,390,0,0">
+            <TextBlock Text="Сохранение документа ..." />
+            <StatusBarItem HorizontalAlignment="Right" >
+                <TextBlock Text="Подключение к БД: ОК" />
+            </StatusBarItem>
+        </StatusBar>
+
     </Grid>
 </Window>
