@@ -1,0 +1,91 @@
+<Window x:Class="GraphicEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Графический редактор" Height="450" Width="800">
+    <Grid>
+        <InkCanvas Name="DrawingCanvas" Background="White" 
+                   MouseDown="DrawingCanvas_MouseDown" 
+                   MouseMove="DrawingCanvas_MouseMove" 
+                   MouseUp="DrawingCanvas_MouseUp">
+            <InkCanvas.DefaultDrawingAttributes>
+                <DrawingAttributes Color="Black" Height="5" Width="1"/>
+            </InkCanvas.DefaultDrawingAttributes>
+        </InkCanvas>
+
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10">
+            <ComboBox Name="ColorComboBox" SelectionChanged="ColorComboBox_SelectionChanged">
+                <ComboBoxItem Content="Черный" Tag="Black"/>
+                <ComboBoxItem Content="Красный" Tag="Red"/>
+                <ComboBoxItem Content="Зеленый" Tag="Green"/>
+                <ComboBoxItem Content="Синий" Tag="Blue"/>
+            </ComboBox>
+
+            <Slider Name="SizeSlider" Minimum="1" Maximum="20" Value="5" TickFrequency="1"
+                    LargeChange="1" SmallChange="1" Width="150" ValueChanged="SizeSlider_ValueChanged"/>
+
+            <TextBlock Text="Выберите режим:"/>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton Name="DrawMode" Content="Рисование" IsChecked="True"/>
+                <RadioButton Name="EditMode" Content="Редактирование"/>
+                <RadioButton Name="DeleteMode" Content="Удаление"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
+
+
+
+
+
+
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Input;
+using System.Windows.Ink;
+using System.Windows.Media;
+
+namespace GraphicEditor
+{
+    public partial class MainWindow : Window
+    {
+        private bool isDrawing = false;
+        private SolidColorBrush brushColor = Brushes.Black;
+        private int brushSize = 5;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void ColorComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ColorComboBox.SelectedItem is ComboBoxItem selectedItem)
+            {
+                brushColor = (SolidColorBrush)new BrushConverter().ConvertFromString(selectedItem.Tag.ToString());
+                DrawingCanvas.DefaultDrawingAttributes.Color = (Color)ColorConverter.ConvertFromString(selectedItem.Tag.ToString());
+            }
+        }
+
+        private void SizeSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            brushSize = (int)e.NewValue;
+            DrawingCanvas.DefaultDrawingAttributes.Height = brushSize;
+  
+        }
+
+        private void DrawingCanvas_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+
+        private void DrawingCanvas_MouseMove(object sender, MouseEventArgs e)
+        {
+      
+        }
+
+        private void DrawingCanvas_MouseUp(object sender, MouseButtonEventArgs e)
+        {
+
+        }
+    }
+}
