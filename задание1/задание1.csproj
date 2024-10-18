@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{48ECCD5C-F43E-4D1A-AFAE-AA821AE88639}</ProjectGuid>
+    <ProjectGuid>{B61C6A0E-9344-46B9-AE8E-53C6CB3B8C4C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>_11r</RootNamespace>
-    <AssemblyName>11r</AssemblyName>
+    <RootNamespace>задание1</RootNamespace>
+    <AssemblyName>задание1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -95,13 +95,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\1466617.png" />
+    <Resource Include="NewFolder1\9136168.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\9136168.png" />
+    <Resource Include="NewFolder1\1466617.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Image\Без названия.png" />
+    <Resource Include="NewFolder1\Без названия.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
