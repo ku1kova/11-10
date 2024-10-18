@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace _11r
+namespace задание1
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -34,6 +34,10 @@ namespace _11r
             MessageBox.Show("Разработчик: Кулькова Софья\nКонтакт: sofya.kulkova.06@gmail.com", "О разработчике", MessageBoxButton.OK, MessageBoxImage.Information);
         }
 
+        private void ChangeColor_Click(object sender, RoutedEventArgs e)
+        {
+            gr1.Background = Brushes.LightGreen;
+        }
 
     }
 }
