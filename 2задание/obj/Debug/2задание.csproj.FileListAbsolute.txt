@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\Решение КСЗ\2задание\bin\Debug\2задание.exe.config
+C:\Users\student\Desktop\Решение КСЗ\2задание\bin\Debug\2задание.exe
+C:\Users\student\Desktop\Решение КСЗ\2задание\bin\Debug\2задание.pdb
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\App.g.cs
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание_MarkupCompile.cache
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание_MarkupCompile.lref
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.g.resources
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\_2задание.Properties.Resources.resources
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.csproj.GenerateResource.cache
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.exe
+C:\Users\student\Desktop\Решение КСЗ\2задание\obj\Debug\2задание.pdb
