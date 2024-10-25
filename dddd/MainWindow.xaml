@@ -1,0 +1,27 @@
+﻿<Window x:Class="dddd.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:dddd"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="20"
+VerticalAlignment="Top"
+Width="792">
+            <MenuItem Header="Input" Name="miInput" Width="40" />
+            <MenuItem Header="Calc" Name="miCalc" Width="45" />
+            <MenuItem Header="About" RenderTransformOrigin="1.273,0.556" Width="45">
+                <TextBox Name="Number1" HorizontalAlignment="Left" Height="23" Margin="65,67,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-0.208,-0.217"/>
+                <TextBox Name="Number2" HorizontalAlignment="Left" Height="23" Margin="65,102,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                <TextBox Name="Number3" HorizontalAlignment="Left" Height="23" Margin="65,137,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+                <CheckBox Content="Summ" HorizontalAlignment="Left" Margin="335,125,0,0" VerticalAlignment="Top"/>
+                <CheckBox Content="Least multiple" HorizontalAlignment="Left" Margin="335,90,0,0" VerticalAlignment="Top"/>
+                <Button Content="Button" HorizontalAlignment="Left" Margin="545,185,0,0" VerticalAlignment="Top" Width="75"/>
+            </MenuItem>
+        </Menu>
+        
+
+    </Grid>
+</Window>

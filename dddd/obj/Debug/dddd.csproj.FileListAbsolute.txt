@@ -1,0 +1,15 @@
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\App.g.cs
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd_MarkupCompile.cache
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd_MarkupCompile.lref
+C:\Users\student\Desktop\решениеКул\dddd\bin\Debug\dddd.exe.config
+C:\Users\student\Desktop\решениеКул\dddd\bin\Debug\dddd.exe
+C:\Users\student\Desktop\решениеКул\dddd\bin\Debug\dddd.pdb
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\MainWindow.baml
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.g.resources
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.Properties.Resources.resources
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.csproj.GenerateResource.cache
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.exe
+C:\Users\student\Desktop\решениеКул\dddd\obj\Debug\dddd.pdb
