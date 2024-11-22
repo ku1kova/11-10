@@ -1,0 +1,5 @@
+C:\Users\student\Desktop\Решение КСЗ\задание1\obj\Debug\задание1.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\Решение КСЗ\задание1\obj\Debug\MainWindow.g.cs
+C:\Users\student\Desktop\Решение КСЗ\задание1\obj\Debug\App.g.cs
+C:\Users\student\Desktop\Решение КСЗ\задание1\obj\Debug\задание1_MarkupCompile.cache
+C:\Users\student\Desktop\Решение КСЗ\задание1\obj\Debug\задание1_MarkupCompile.lref
